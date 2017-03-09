@@ -10,7 +10,7 @@
 end
 
 
-
+# Create a card
 card = Card.create(
 	course_name: "Rocklin Disc Golf course_id",
 	player_name: "Jason Sutter",
