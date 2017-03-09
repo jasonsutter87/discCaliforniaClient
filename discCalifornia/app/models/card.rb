@@ -1,3 +1,3 @@
 class Card < ApplicationRecord
-  	  has_many :holes
+	has_many :holes
 end
