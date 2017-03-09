@@ -4,6 +4,7 @@ class CreateCards < ActiveRecord::Migration[5.0]
       t.string :course_name
       t.string :player_name
       t.integer :hole_count
+      t.integer :course_avg
       t.integer :course_id
       t.integer :player_id
       t.timestamps
